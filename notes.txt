@@ -1,0 +1,33 @@
+/*
+const options = { //recommended options by mLab
+   server: {
+            socketOptions: { 
+                            keepAlive: 300000, connectTimeoutMS: 30000 
+                           }
+           }, 
+  replset: {
+            socketOptions: {
+                            keepAlive: 300000, connectTimeoutMS : 30000
+                           } 
+           } 
+};
+*/
+/*const conn = */ 
+//conn.on('error', console.error.bind(console, 'connection error:')); 
+
+todo
+* options mongo errorhandling
+* redirect remove underscore
+* url_does_not_exist page red
+* url exists function
+* log shrtnr n xst
+* replace
+* encodeURI
+* koa-body
+* mongoDB/mongoose
+* mongoURI
+* shorter url
+* query db
+* homepage redirect
+* errorhandling
+* findlimit

@@ -1,0 +1,30 @@
+doctype html
+html
+ head
+ title shortened!
+ link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css")
+ link(rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons")
+  
+ - var colorClasses = ['pink darken-1','red darken-4','purple','blue','cyan accent-2','lime accent-2','orange','deep-orange'];
+ - var color = colorClasses[Math.floor(Math.random() * colorClasses.length)]
+   
+ body(class=color)
+  .container
+   .card-panel.teal
+    h4.white-text.center-align Your Link
+    h4.center-align.teal.lighten-1
+     a(href=url target="_blank").red-text= url 
+    br
+    hr
+    br
+    h4.white-text.center-align Shortened Link
+    h4.center-align.teal.lighten-1
+     a(href=shortenedLink).red-text= shortenedLink
+     
+  footer.center-align
+   a(href="https://ee.glitch.me").btn.blue.block Shorten Another URL
+    i.material-icons.left loop
+ 
+  //script(src="https://code.jquery.com/jquery-2.2.1.min.js" integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O0" crossorigin="anonymous")
+  //script(src="/client.js")
+        
