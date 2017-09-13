@@ -1,3 +1,3 @@
 https://ee.glitch.me
 
-![gif](https://media.giphy.com/media/l378eZRm7eXIZfzR6/giphy.gif)
+![demo](https://github.com/furball514/url_shortener_service/blob/glitch/Screen%20Recording%202017-09-13%20at%2009.12%20PM.gif)
